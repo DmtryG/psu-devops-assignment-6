@@ -1,0 +1,13 @@
+name: GitHub Actions DevOps cource
+on: push
+jobs:
+  DevOps-Course-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub Actions check"
+      - name: Show uptime
+        run: uptime
+      - name: Check 1
+        run: pwd
+      - name: Check 2
+        run: whoami
